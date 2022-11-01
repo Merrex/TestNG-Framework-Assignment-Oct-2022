@@ -49,6 +49,7 @@ public class MovieCompareTest extends TestBase {
 		System.out.println(countryIMDB);
 		releaseIMDB=driver.findElement(By.xpath(OR.getProperty("releaseIMDB_XPATH"))).getText();
 		System.out.println(releaseIMDB);
+
 		Thread.sleep(5000);
 
 

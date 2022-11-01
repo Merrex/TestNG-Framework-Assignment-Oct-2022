@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-01T00:23:44 IST" name="Default suite" finished-at="2022-11-01T00:23:44 IST" duration-ms="10">
+  <suite name="Pushpa-1: The Suite" duration-ms="26170" started-at="2022-11-01T09:36:48Z" finished-at="2022-11-01T09:37:15Z">
     <groups>
     </groups>
-    <test started-at="2022-11-01T00:23:44 IST" name="Default test" finished-at="2022-11-01T00:23:44 IST" duration-ms="10">
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    <test name="Test2" duration-ms="26170" started-at="2022-11-01T09:36:48Z" finished-at="2022-11-01T09:37:15Z">
+      <class name="MovieCompare.testcases.MovieCompareTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:MovieCompare.testcases.MovieCompareTest@4b741d6d]" name="setUp" is-config="true" duration-ms="2993" started-at="2022-11-01T15:06:45Z" finished-at="2022-11-01T15:06:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getAndStoreData()[pri:0, instance:MovieCompare.testcases.MovieCompareTest@4b741d6d]" name="getAndStoreData" is-config="true" duration-ms="26123" started-at="2022-11-01T15:06:48Z" finished-at="2022-11-01T15:07:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAndStoreData -->
+        <test-method status="PASS" signature="compareCountry()[pri:0, instance:MovieCompare.testcases.MovieCompareTest@4b741d6d]" name="compareCountry" duration-ms="4" started-at="2022-11-01T15:07:15Z" finished-at="2022-11-01T15:07:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareCountry -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:MovieCompare.testcases.MovieCompareTest@4b741d6d]" name="tearDown" is-config="true" duration-ms="1603" started-at="2022-11-01T15:07:15Z" finished-at="2022-11-01T15:07:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MovieCompare.testcases.MovieCompareTest -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Pushpa-1: The Suite -->
 </testng-results>

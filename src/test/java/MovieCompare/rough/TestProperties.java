@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 public class TestProperties {
 	
-
+	
 	public static void main(String[] args) throws IOException {
 		
 		
